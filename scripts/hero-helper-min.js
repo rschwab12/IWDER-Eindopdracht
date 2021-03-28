@@ -1,1 +1,1 @@
-window.addEventListener("load",(function(){var e=document.getElementsByClassName("hero");for(let n=0;n<e.length;n++){const o=e[n];console.log(o.innerHTML)}}));
+window.addEventListener("load",(function(){var e=document.getElementsByClassName("hero");for(let t=0;t<e.length;t++){const a=e[t];a.hasAttribute("data-hero-background")&&(a.style.backgroundImage="url("+a.dataset.heroBackground+")")}}));
