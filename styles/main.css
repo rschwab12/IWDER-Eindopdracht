@@ -1,30 +1,53 @@
 body {
-    font-family: sans-serif;
-    color: white;
-    background-color: black;
-    padding: 0;
-    margin: 0;
+  font-family: sans-serif;
+  color: white;
+  background-color: black;
+  padding: 0;
+  margin: 0;
 }
 
 nav {
-    background-color: white;
-    color: black;
+  background-color: black;
+  color: white;
+  padding: 0.5em;
+  margin: 0 auto;
+}
+
+.nav-container {
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
 .nav-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  list-style: none;
+  display: inline-block;
 }
 
 .nav-list li {
-    font-size: 1.2em;
-    line-height: 40px;
-    height: 40px;
-    display: inline-block;
-    margin-right: -4px;
+  display: inline-block;
+  line-height: 50px;
+  color: white;
+}
+.nav-list li a {
+  padding: 0.5em 0.5em;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+.nav-list li a:hover {
+  border-radius: 2.5px;
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .nav-logo {
-    height: 35px;
+  display: inline-block;
+  width: 80px;
+}
+
+.nav-logo img {
+  width: 100px;
 }
