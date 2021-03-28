@@ -15,7 +15,7 @@ nav {
 
 .nav-container {
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1200px;
 }
 
 .nav-list {
@@ -29,14 +29,16 @@ nav {
 .nav-list li {
     display: inline-block;
     line-height: 50px;
-    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
     a {
         padding: .5em .5em;
         height: 100%;
         width: 100%;
         text-decoration: none;
-        color: white;
+        color: rgba(255,255,255,.75);
         &:hover{
+            color: white;
             border-radius: 2.5px;
             background-color: rgba(255,255,255,.15);
         }
