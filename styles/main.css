@@ -1,6 +1,30 @@
 body {
+    font-family: sans-serif;
     color: white;
     background-color: black;
     padding: 0;
     margin: 0;
+}
+
+nav {
+    background-color: white;
+    color: black;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.nav-logo {
+    height: 35px;
 }
