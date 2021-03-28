@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   color: white;
   background-color: black;
   padding: 0;
@@ -50,4 +51,12 @@ nav {
 
 .nav-logo img {
   width: 100px;
+}
+
+.hero {
+  background-image: url("../img/section/0.jpg");
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
