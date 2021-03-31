@@ -5,16 +5,16 @@
         color: #CA2216;
         text-transform: uppercase;
         font-size: 18px;
+        padding: 0 .25em;
     }
 }
 
 .column{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .row{
-    width: 100%;
-    height: 100%;
-    margin: 0em .25em;
-    padding: 1em;
+    flex: 1 1 200px;
+    margin: .25em;
 }
