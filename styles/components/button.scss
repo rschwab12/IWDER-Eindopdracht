@@ -3,11 +3,13 @@
     padding: .5em 1em;
     color: white;
     text-decoration: none;
+    border-radius: 5px;
     &:hover {
         background-color: #962216;
     }
     &.is-small{
         font-size: 12px;
         padding: .25em .5em;
+        border-radius: 2.5px;
     }
 }
