@@ -1,0 +1,1 @@
+window.addEventListener("load",(function(){document.getElementById("menu-toggle").addEventListener("click",(function(){document.getElementById("nav-menu").classList.toggle("is-hidden-mobile")}))}));

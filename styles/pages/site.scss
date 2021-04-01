@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    animation: fadein 1.25s;
+    -webkit-animation: fadein 1.25s;
+    -moz-animation: fadein 1.25s;
+}
+
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@media only screen and (max-width: 768px) {
+    .is-hidden-mobile {
+        display: none;
+    }
+}

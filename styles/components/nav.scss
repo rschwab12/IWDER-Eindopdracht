@@ -1,40 +1,22 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    background-color: black;
-    padding: 0;
-    margin: 0;
-}
-
 nav {
     background-color: black;
     color: white;
-    padding: .5em;
-    margin: 0 auto;
-}
-
-.nav-container {
-    margin: 0 auto;
-    max-width: 1200px;
+    text-align: center
 }
 
 .nav-list {
-    padding: 0;
-    position: absolute;
-    top: 0;
     list-style: none;
-    display: inline-block;
+}
+
+ul {
+    width: 82.5%;
 }
 
 .nav-list li {
-    display: inline-block;
-    line-height: 50px;
+    line-height: 25px;
     font-size: 13px;
     text-transform: uppercase;
     a {
-        padding: .5em .5em;
-        height: 100%;
-        width: 100%;
         text-decoration: none;
         color: rgba(255,255,255,.75);
         &:hover{
@@ -50,11 +32,71 @@ nav {
     }
 }
 
-.nav-logo {
-    display: inline-block;
-    width: 80px;
+#menu-toggle {
+    margin: .5em;
 }
 
 .nav-logo img {
-    width: 100px;
+    width: 75px;
 }
+
+@media only screen and (min-width: 768px) {
+
+    #menu-toggle {
+        display: none;
+    }
+
+    nav {
+        background-color: black;
+        color: white;
+        padding: .5em;
+        margin: 0 auto;
+        text-align: left;
+    }
+    
+    .nav-container {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    
+    .nav-list {
+        padding: 0;
+        position: absolute;
+        top: 0;
+        list-style: none;
+        display: inline-block;
+    }
+    
+    .nav-list li {
+        display: inline-block;
+        line-height: 50px;
+        font-size: 13px;
+        text-transform: uppercase;
+        a {
+            padding: .5em .5em;
+            height: 100%;
+            width: 100%;
+            text-decoration: none;
+            color: rgba(255,255,255,.75);
+            &:hover{
+                color: white;
+                border-radius: 2.5px;
+                background-color: rgba(255,255,255,.15);
+            }
+        }
+        .is-active {
+            color: white;
+            border-radius: 2.5px;
+            background-color: rgba(255,255,255,.15);
+        }
+    }
+    
+    .nav-logo {
+        display: inline-block;
+        width: 80px;
+    }
+    
+    .nav-logo img {
+        width: 100px;
+    }
+  }

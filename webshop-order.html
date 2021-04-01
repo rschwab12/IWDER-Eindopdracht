@@ -17,7 +17,7 @@
                 <figure class="nav-logo">
                     <img src="img/logos/suits.png" alt="Suits">
                 </figure>
-                <ul class="nav-list">
+                <ul class="nav-list is-hidden-mobile" id="nav-menu">
                     <li>
                         <a href="index.html">
                             Home
@@ -38,7 +38,15 @@
                             "You just got litt up" mugshop
                         </a>
                     </li>
+                    <li>
+                        <a href="bronnen.html">
+                            Bronnenlijst
+                        </a>
+                    </li>
                 </ul>
+                <button class="button is-dark is-small" id="menu-toggle">
+                    Menu
+                </button>
             </div>
         </nav>
         <section class="content-section order">
@@ -47,7 +55,7 @@
                 <p>
                     Vul hieronder uw gegevens in
                 </p>
-                <form action="thanks.html">
+                <form action="webshop-thanks.html">
                     <p>
                         <label for="name">Naam</label><br>
                         <input id="name" type="text" class="order-input">
@@ -75,6 +83,11 @@
                         </select>
                     </p>
                     <p>
+                        <b>Totaal bedrag</b>
+                        <!-- Sorry not sorry, nodig voor plaatsen van totaal bedrag met JS-->
+                        <span id="total-amount"></span>
+                    </p>
+                    <p>
                         <input class="button" type="submit" value="Bestelling plaatsen">
                     </p>
                 </form>
@@ -85,7 +98,8 @@
             Final assignment IWDER 2021
         </footer>
     </main>
-    <script src="scripts/actor-links-min.js"></script>
+    <script src="scripts/webshop-amount-min.js"></script>
+    <script src="scripts/nav-min.js"></script>
 </body>
 
 </html>

@@ -17,7 +17,7 @@
                 <figure class="nav-logo">
                     <img src="img/logos/suits.png" alt="Suits">
                 </figure>
-                <ul class="nav-list">
+                <ul class="nav-list is-hidden-mobile" id="nav-menu">
                     <li>
                         <a href="index.html">
                             Home
@@ -38,7 +38,15 @@
                             "You just got litt up" mugshop
                         </a>
                     </li>
+                    <li>
+                        <a href="bronnen.html">
+                            Bronnenlijst
+                        </a>
+                    </li>
                 </ul>
+                <button class="button is-dark is-small" id="menu-toggle">
+                    Menu
+                </button>
             </div>
         </nav>
         <section class="content-section">
@@ -50,12 +58,19 @@
                     </p>
                     <div>
                         <p>
-                            <label for="amount">Aantal</label><br>
-                            <input class="amount-input" type="text" id="amount" value="1">
+                            <h3>
+                                &euro;15,95
+                            </h3>
+                            Verwachte levertijd: 2 werkdagen<br>
+                            Maximaal 10 items per klant.
                         </p>
-                        <a id="order-now" class="button" href="webshop-order.html">
+                        <p>
+                            <label for="amount">Aantal</label><br>
+                            <input class="amount-input" type="number" max="10" id="amount" value="1">
+                        </p>
+                        <button id="order-now" class="button">
                             Nu bestellen
-                        </a>
+                        </button>
                     </div>
                 </section>
                 <section class="row" data-actor="patrick-j-adams">
@@ -70,7 +85,8 @@
             Final assignment IWDER 2021
         </footer>
     </main>
-    <script src="scripts/actor-links-min.js"></script>
+    <script src="scripts/webshop-amount-min.js"></script>
+    <script src="scripts/nav-min.js"></script>
 </body>
 
 </html>
