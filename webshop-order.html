@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suits</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/hero-helper.js"></script>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div class="nav-container">
+                <figure class="nav-logo">
+                    <img src="img/logos/suits.png" alt="Suits">
+                </figure>
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="over.html">
+                            Over de serie
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cast.html">
+                            Cast
+                        </a>
+                    </li>
+                    <li>
+                        <a class="is-active" href="webshop.html">
+                            "You just got litt up" mugshop
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="content-section order">
+            <h2>Bestellen</h2>
+            <section>
+                <p>
+                    Vul hieronder uw gegevens in
+                </p>
+                <form action="thanks.html">
+                    <p>
+                        <label for="name">Naam</label><br>
+                        <input id="name" type="text" class="order-input">
+                    </p>
+                    <p>
+                        <label for="street">Straat en huisnummer</label><br>
+                        <input id="street" type="text" class="order-input">
+                    </p>
+                    <p>
+                        <label for="postalcode">Postcode</label><br>
+                        <input id="postalcode" type="text" class="order-input">
+                    </p>
+                    <p>
+                        <label for="email">E-Mail adres</label><br>
+                        <input id="email" type="text" class="order-input">
+                    </p>
+                    <p>
+                        <label for="payment-method">Betaalmethode</label><br>
+                        <select id="payment-method" id="">
+                            <option value="none">Kies een betaalmethode</option>
+                            <option value="ideal">iDEAL</option>
+                            <option value="cirrus">Maestro of MasterCard</option>
+                            <option value="visaplus">VISA</option>
+                            <option value="amex">American Express</option>
+                        </select>
+                    </p>
+                    <p>
+                        <input class="button" type="submit" value="Bestelling plaatsen">
+                    </p>
+                </form>
+            </section>
+        </section>
+        <footer>
+            This website is created by Rico Schwab<br><br>
+            Final assignment IWDER 2021
+        </footer>
+    </main>
+    <script src="scripts/actor-links-min.js"></script>
+</body>
+
+</html>

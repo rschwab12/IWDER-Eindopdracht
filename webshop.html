@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <script src="scripts/hero-helper.js"></script>
 </head>
+
 <body>
     <main>
         <nav>
@@ -23,7 +24,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="is-active" href="over.html">
+                        <a href="over.html">
                             Over de serie
                         </a>
                     </li>
@@ -33,7 +34,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="webshop.html">
+                        <a class="is-active" href="webshop.html">
                             "You just got litt up" mugshop
                         </a>
                     </li>
@@ -41,29 +42,35 @@
             </div>
         </nav>
         <section class="content-section">
+            <h2>"You just got Litt up!" Mok</h2>
             <section class="column">
                 <section class="row">
-                    <h2>Over de serie</h2>
                     <p>
-                        Suits is een Amerikaanse juridische drama tv-serie gemaakt en geschreven door Aaron Korsh. De serie in première op 23 juni 2011, op het kabelnetwerk VS, en wordt geproduceerd door Universal Cable. Suits is ingesteld op een fictieve advocatenkantoor in New York City. Het centrale punt van de show volgt getalenteerde college dropout Mike Ross ( Patrick J. Adams ), die in eerste instantie werkt als een wet associate voor Harvey Specter ( Gabriel Macht ), ondanks nooit het bijwonen van de wet school. De show richt zich op Harvey en Mike het beheer van de gevallen te sluiten met behoud van Mike’s geheim.
+                        Voor de liefhebbers van Suits mag deze mok niet in de kast ontbreken! De beker van het onderkruipsel Louis Litt wordt gesierd met de letters 'you just got litt up'.
                     </p>
-                    <p>
-                        Suits is genomineerd voor diverse awards sinds 2012, met Gina Torres en Patrick J. Adams die individuele lof over hun rol als respectievelijk Jessica Pearson en Mike Ross. De show werd genomineerd voor Beste Drama op de 2014 TV Guide Awards en Favorite dramedy aan de 2014 People’s Choice Awards. Torres werd genomineerd voor Favorite TV Actrice in een Bijrol in de 2012 ALMA Awards en als beste vrouwelijke bijrol in de Televisie in 2013 Imagen Foundation Awards, terwijl Adams in een dramaserie voor uitmuntende prestaties werd genomineerd door een mannelijke acteur op de 2012 Screen Actors Toekenning van het gilde.
-                    </p>
+                    <div>
+                        <p>
+                            <label for="amount">Aantal</label><br>
+                            <input class="amount-input" type="text" id="amount" value="1">
+                        </p>
+                        <a id="order-now" class="button" href="webshop-order.html">
+                            Nu bestellen
+                        </a>
+                    </div>
                 </section>
-                <section class="row">
+                <section class="row" data-actor="patrick-j-adams">
                     <figure>
-                        <img src="img/section/leader-logo.png" alt="">
+                        <img class="webshop-img" src="img/webshop/mug.png" alt="">
                     </figure>
                 </section>
             </section>
-            
         </section>
         <footer>
             This website is created by Rico Schwab<br><br>
             Final assignment IWDER 2021
         </footer>
     </main>
+    <script src="scripts/actor-links-min.js"></script>
 </body>
 
 </html>

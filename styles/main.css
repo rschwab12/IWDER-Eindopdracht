@@ -79,6 +79,8 @@ nav {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  border: none;
+  cursor: pointer;
 }
 .button:hover {
   background-color: #962216;
@@ -142,4 +144,60 @@ footer {
 .news p {
   color: rgba(255, 255, 255, 0.65);
   line-height: 160%;
+}
+
+.actor {
+  text-align: center;
+  cursor: pointer;
+}
+.actor img {
+  height: 200px;
+  width: 200px;
+  border-radius: 360px;
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(100%);
+  transition: ease-in 0.5s;
+}
+.actor img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+.actor p {
+  font-weight: bold;
+}
+
+.actor-page-img {
+  height: 400px;
+  width: 400px;
+  border-radius: 360px;
+}
+
+.webshop-img {
+  height: 400px;
+  width: 400px;
+}
+
+.amount-input {
+  padding: 0.25em 0.5em;
+  width: 30px;
+  text-align: center;
+  background-color: black;
+  border: 1px solid #CA2216;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+}
+
+.order {
+  padding: 2em;
+}
+
+.order-input {
+  padding: 0.5em 0.5em;
+  background-color: black;
+  border: 1px solid #CA2216;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
 }

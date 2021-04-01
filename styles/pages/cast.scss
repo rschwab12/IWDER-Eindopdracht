@@ -1,0 +1,26 @@
+.actor {
+    text-align: center;
+    cursor: pointer;
+    img{
+        height: 200px;
+        width: 200px;
+        border-radius: 360px;
+        filter: gray; /* IE6-9 */
+        -webkit-filter: grayscale(100%);
+        transition: ease-in .5s;
+    }
+    img:hover{
+        filter: none;
+        -webkit-filter: grayscale(0%);
+    }
+
+    p {
+        font-weight: bold;
+    }
+}
+
+.actor-page-img {
+    height: 400px;
+    width: 400px;
+    border-radius: 360px;
+}
